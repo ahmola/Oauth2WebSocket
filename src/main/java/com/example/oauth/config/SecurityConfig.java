@@ -14,8 +14,8 @@ public class SecurityConfig {
         return http
                 .authorizeHttpRequests(
                         auth -> {
-                            auth.requestMatchers("/api/**").authenticated();
-                            auth.anyRequest().permitAll();
+//                            auth.requestMatchers("/api/**").authenticated();
+                            auth.anyRequest().authenticated();
                         })
                 .oauth2Login(Customizer.withDefaults())
                 .formLogin(Customizer.withDefaults())

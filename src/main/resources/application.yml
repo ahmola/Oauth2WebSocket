@@ -9,11 +9,11 @@ spring:
       client:
         registration:
           google:
-            client-id: 849215442642-50eqhmeckrlco85bicc34gepma98v1ll.apps.googleusercontent.com
-            client-secret: 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
+            client-id: #
+            client-secret: #
   data:
     mongodb:
-      uri: mongodb://park:1234@localhost:27017/demo?authenticationDatabase=admin
+      uri: #
   jpa:
     show-sql: true
 
